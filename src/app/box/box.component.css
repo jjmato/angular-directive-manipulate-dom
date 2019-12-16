@@ -1,0 +1,30 @@
+:host{
+
+  display:block;
+  
+  height: 6rem;
+  width: 6rem;
+
+  background: salmon;
+  border: 1px solid red;
+  border-radius: 3px;
+
+  position: relative;
+  overflow: hidden;
+  
+}
+
+.check{
+  border: 1px dotted green;
+  background: darkcyan;
+  color: gold;
+
+  width: 1rem;
+  height: 1rem;
+
+  transform: rotate(45deg);
+  
+  position: absolute;
+  top:0;
+  right: 0;
+}
